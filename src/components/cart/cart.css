@@ -1,0 +1,79 @@
+/* cart.css */
+
+/* Overall styling for the cart container */
+.cart-container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  /* Styling for each cart item */
+  .cart-li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+  }
+  
+  /* Styling for product image */
+  .cart-image {
+    width: 150px; /* Updated width for medium size */
+    height: 150px; /* Updated height for medium size */
+    margin-right: 10px;
+    border-radius: 4px;
+  }
+  
+  /* Styling for quantity buttons and value */
+  .cart-quantity,
+  .cart-value {
+    padding: 8px;
+    font-size: 14px;
+    margin: 0 5px;
+    cursor: pointer;
+  }
+  
+  .cart-quantity {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+  }
+  
+  .cart-value {
+    font-weight: bold;
+  }
+  
+  /* Styling for remove button */
+  .cart-remove {
+    padding: 8px;
+    font-size: 14px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .cart-empty {
+    text-align: center;
+  }
+  
+  /* Additional styling for empty cart message */
+  .empty-cart-image {
+    width: 200px;
+    height: 200px;
+  }
+  
+  .empty-heading {
+    color: #555;
+    text-align: center;
+    margin-top: 10px;
+  }
+  

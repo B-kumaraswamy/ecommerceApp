@@ -1,0 +1,94 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Products container styling */
+.products-container {
+    padding: 20px;
+}
+
+/* Header styling - assuming you have a class named header in your header component */
+.header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+
+/* Heading styling */
+h1 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+/* Container for a row of product containers */
+.product-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; /* Adjust spacing between products */
+    max-height: 100vh; /* Set maximum height for vertical scrolling */
+    overflow-y: auto; /* Enable vertical scrolling */
+}
+
+/* Product container styling */
+.product-container {
+    width: calc(33.33%-10px); /* Adjust the width to display three products in a row with spacing */
+    margin-bottom: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: box-shadow 0.3s;
+    box-sizing: border-box;
+}
+
+.product-container:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Product image styling */
+.product-image img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Product title styling */
+.product-title {
+    padding: 15px;
+}
+
+.product-title h1 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+/* Product vendor styling */
+.product-vendor {
+    padding: 0 15px;
+}
+
+.product-vendor p {
+    font-size: 14px;
+    color: #666;
+}
+
+/* Product price styling */
+.product-price {
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.product-price h2 {
+    font-size: 16px;
+    color: #333;
+}
+
+.product-price span {
+    font-size: 14px;
+    color: #666;
+}

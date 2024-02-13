@@ -1,0 +1,48 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styling */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+
+.header-logo img {
+    width: 70px;
+}
+
+.header-text {
+    margin-left: 20px;
+}
+
+.header-text a {
+    text-decoration: none;
+    color: white;
+}
+
+.logout-button button {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/* Responsive styling for smaller screens */
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .header-text {
+        margin: 10px 0;
+    }
+}
