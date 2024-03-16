@@ -40,7 +40,7 @@ function Products() {
         }
         fetchData()
 
-    }, [productsUrl])
+    }, [])
 
     
     
